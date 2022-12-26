@@ -6,11 +6,15 @@ export type StateType = {
   popup?: OpenPopupProps
 
   charPosY: number
+  score: number
+  frame: number
 }
 const initialState: StateType = {
   ready: false,
 
-  charPosY: 0
+  charPosY: 0,
+  score: 0,
+  frame: 0
 }
 
 export type OpenPopupProps = {

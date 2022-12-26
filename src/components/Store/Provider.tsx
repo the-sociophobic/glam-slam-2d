@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 import { StateType, initialState, NonStateType, OpenPopupProps } from './Types'
 import Context from './Context'
+import useAnimationFrame from '../../hooks/useAnimationFrame'
 
 
 type PropsType = {
@@ -11,6 +12,7 @@ type PropsType = {
 
 const Provider: React.FC<PropsType> = ({ children }) => {
   const [state, _setState] = useState<StateType>(initialState)
+  // const frame = useAnimationFrame()
 
   const setState = (someParams: Partial<StateType>) => {
     _setState({
@@ -29,6 +31,11 @@ const Provider: React.FC<PropsType> = ({ children }) => {
   useEffect(() => {
     initialization()
   }, [])
+
+  // useEffect(() => {
+  //   // console.log(state.frame)
+  //   setState({ frame: frame })
+  // }, [frame])
 
   const registerInitializeCallback = (fn: Function) => {
     initializeCallBacks.push(fn)
