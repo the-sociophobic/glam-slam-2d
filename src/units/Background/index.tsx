@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { MAX_FRAME, X_DIMENSION } from '../../utils/consts'
+import { MAX_FRAME } from '../../utils/consts'
 import useAnimationFrame from '../../hooks/useAnimationFrame'
 
 import backgroundImg from './sprites/Background.png'

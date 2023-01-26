@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Div100vh from 'react-div-100vh'
+
 import Char from './units/Char'
 import Grid from './units/Grid'
 import Background from './units/Background'
@@ -9,19 +11,21 @@ import Score from './components/Score'
 
 
 const App = () =>
-  <div className='App'>
-    <Header />
-    <Content>
-      {/* <Background /> */}
-      <div className='Road'>
-        <div className='container position-relative h-100'>
-          <Grid />
-          <Char />
+  <Div100vh>
+    <div className='App'>
+      <Header />
+      <Content>
+        {/* <Background /> */}
+        <div className='Road'>
+          <div className='container position-relative h-100'>
+            <Grid />
+            <Char />
+          </div>
         </div>
-      </div>
-      <Score />
-    </Content>
-  </div>
+        <Score />
+      </Content>
+    </div>
+  </Div100vh>
 
 
 export default App
