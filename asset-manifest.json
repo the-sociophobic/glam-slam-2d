@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/glam-slam/static/css/main.7b1d3f4a.css",
-    "main.js": "/glam-slam/static/js/main.d8a6d6a8.js",
-    "static/media/Raleway-Regular.ttf": "/glam-slam/static/media/Raleway-Regular.3927fa2a37e6f7f4c7c0.ttf",
-    "static/media/Raleway-Bold.ttf": "/glam-slam/static/media/Raleway-Bold.18960343b3da49bfd353.ttf",
-    "static/media/Girl.png": "/glam-slam/static/media/Girl.a467aa4ff757c785c99e.png",
-    "index.html": "/glam-slam/index.html",
-    "main.7b1d3f4a.css.map": "/glam-slam/static/css/main.7b1d3f4a.css.map",
-    "main.d8a6d6a8.js.map": "/glam-slam/static/js/main.d8a6d6a8.js.map"
+    "main.css": "/glam-slam-2d/static/css/main.1c2facd7.css",
+    "main.js": "/glam-slam-2d/static/js/main.11f456a3.js",
+    "static/media/Raleway-Regular.ttf": "/glam-slam-2d/static/media/Raleway-Regular.3927fa2a37e6f7f4c7c0.ttf",
+    "static/media/Raleway-Bold.ttf": "/glam-slam-2d/static/media/Raleway-Bold.18960343b3da49bfd353.ttf",
+    "index.html": "/glam-slam-2d/index.html",
+    "main.1c2facd7.css.map": "/glam-slam-2d/static/css/main.1c2facd7.css.map",
+    "main.11f456a3.js.map": "/glam-slam-2d/static/js/main.11f456a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b1d3f4a.css",
-    "static/js/main.d8a6d6a8.js"
+    "static/css/main.1c2facd7.css",
+    "static/js/main.11f456a3.js"
   ]
 }
